@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>chat-app</title>
+
+
+
+
+</head>
+<body>
+    <div class="app__wrap">
+        <div id="info" class="app__info"></div>
+        <div id="chatWindow" class="app__window"></div>
+        <div class="app__input__wrap">
+            <input id="chatInput" type="text" onkeypress="if( event.keyCode == 13 ){var message = chatInput.value; socket.emit('sendMessage', {message}); chatInput.value = '';};" class="app__input" autofocus placeholder="텍스트를 입력해주세요.">
+            <button id="chatMessageSendBtn" class="app__button">전송</button>
+        </div>
+    </div>
+
+
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="/js/index.js"></script>
+</body>
+</html>
