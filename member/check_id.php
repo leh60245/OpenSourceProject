@@ -16,12 +16,13 @@
     // 전달받은 id가 member테이블에 있는지 검사
     $sql= "SELECT * FROM member WHERE id='$id'";
     $result= mysqli_query($conn, $sql);
-    $rowNum=mysqli_num_rows($result);
-
+   // $rowNum= mysqli_num_rows($result);
+  
     // $rowNum이 0이 아니면 중복
-    if($rowNum){
-        echo "아이디가 중복 됩니다.<br>";
-        echo "다른 아이디를 사용하세요.<br>";
+    //if($rowNum)
+    if ($result)
+    {   echo "아이디가 중복 됩니다.<br>";
+        echo "다른 아이디를 사용하세요.<br>";  
     }else{
         echo "사용가능한 아이디 입니다.<br>";
     }
