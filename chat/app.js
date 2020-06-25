@@ -45,6 +45,7 @@ io.sockets.on('connection', function(socket){
 });
 
 
-server.listen(8080, function(){
+var port = process.env.PORT || 3000;
+server.listen(port, function(){
     console.log('서버를 실행하고 있습니다...'); //정상 작동하면 서버창에 이렇게 뜰 것임.
 });
