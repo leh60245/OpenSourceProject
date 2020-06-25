@@ -28,9 +28,9 @@
             )";
 
             if (mysqli_query($conn,$ntb)){
-                echo "성공적으로 table 테이블을 만들었습니다.";
+               // echo "성공적으로 table 테이블을 만들었습니다.";
                 } else {
-                echo "테이블 생성 오류 : " . mysqli_error($conn);
+                //echo "테이블 생성 오류 : " . mysqli_error($conn);
                 }
         ?>
 
