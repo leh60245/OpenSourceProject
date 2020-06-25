@@ -29,7 +29,6 @@
                     <li><a href="./login/login_form.php">로그인</a></li>
                 <?php }else{ ?>
                     <li><a href="./login/logout.php">로그아웃</a></li>
-                    <li> | </li>
                     <li><a href="./login/member_modify_form.php">정보수정</a></li>
                 <?php }?>
 

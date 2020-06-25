@@ -30,15 +30,20 @@
 
     // DB 접속 공통모듈 사용
     include "../lib/dbconn.php";
-
+    $choose="use hp_db";
+    mysqli_query($conn,$choose);
     // 쿼리문
     $sql= "SELECT * FROM member WHERE id='$id' and pass='$pass'";
     $result= mysqli_query($conn,$sql);
+    if (!$result) {
+        echo 'MySQL Error: ' . mysqli_error($conn);
+        exit;
+    }
     // 결과표로부터 레코드 수 얻어오기
-    $rowNum= mysqli_num_rows($result);
+    //$rowNum= mysqli_num_rows($result);
 
     // $rowNum이 0이면 아이디와 패스워드가 맞지 않는 것
-    if(!$rowNum){
+    if(!$result){
         echo "
         <script>
             alert('아이디와 비밀번호를 확인하세요.');
@@ -52,13 +57,17 @@
     // 다른 페이지에서 로그인 되었다고 인지하기 위해, 회원정보를 세션에 저장
     // 해당하는 id의 회원정보 얻어오기
     $row=mysqli_fetch_array($result, MYSQLI_ASSOC);
-
+   // $row=mysqli_fetch_assoc($result);
+   // $row=mysqli_query($conn,$result);
     // 세션에 저장
-    session_start();
+
+  
+        session_start();
     $_SESSION['userid']=$row['id'];
     $_SESSION['username']=$row['name'];
     $_SESSION['userlevel']=$row['level'];
     $_SESSION['userpoint']=$row['point'];
+
 
     // 세션저장이 되었으니 index.php페이지로 이동
     echo "

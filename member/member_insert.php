@@ -1,4 +1,5 @@
 <?php
+
     $id= $_POST['id'];
     $pass= $_POST['pass'];
     $name= $_POST['name'];
@@ -13,14 +14,14 @@
     // 레벨은 신규회원은 9,포인트는 0점으로 기본설정
 
     include "../lib/dbconn.php";
-
+    $choose="use hp_db";
+    mysqli_query($conn,$choose);
     // 중복된 아이디 여부를 확인해서 사용자에게 안내
     $sql= "SELECT * FROM member WHERE id='$id'";
     $result=mysqli_query($conn, $sql);
-    $rowNum= mysqli_num_rows($result); //결과표로부터 레코드 수 얻어오기
 
     // 혹시 $rowNum이 0이 아니면 id가 있다는 것이므로 중복!!
-    if($rowNum){
+    if(!$result){
         // 경고창을 보여주면서 이전 회원가입 페이지로 다시 이동
         // history.back()  : 이전 페이지로 이동
         echo("
@@ -37,10 +38,16 @@
     //회원정보 insert
 
     //insert 쿼리문
-    $sql= "INSERT INTO member(id, pass, name, email, regist_day, level, point) VALUES('$id','$pass','$name','$email','$regist_day','9','0')";
+    $nmem= "INSERT INTO member(id, pass, name, email, regist_day, level, point) VALUES('$id','$pass','$name','$email','$regist_day','9','0')";
 
     // 쿼리문 실행
-    mysqli_query($conn,$sql);
+    if ($conn->query($nmem) === TRUE) {
+        echo "New record created successfully";
+    } else {
+        echo "Error: " . $nmem . "
+    " . $conn->error;
+    }
+    //mysqli_query($conn,$sql);
     mysqli_close($conn);
 
     // 데이터 저장이 완료된 후 index.php로 페이지 이동

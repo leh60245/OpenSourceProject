@@ -26,17 +26,14 @@
                 <!-- 로그인 안되었을 때 -->
                 <?php if(!$userid){  ?>
                     <li><a href="../member/member_form.php">회원가입</a></li>
-                    <li> | </li>
                     <li><a href="../login/login_form.php">로그인</a></li>
                 <?php }else{ ?>
                     <li><a href="../login/logout.php">로그아웃</a></li>
-                    <li> | </li>
                     <li><a href="../login/member_modify_form.php">정보수정</a></li>
                 <?php }?>
 
                 <!-- 관리자모드로 로그인되었을 때 추가로.. -->
                 <?php if($userlevel==1){?>
-                    <li> | </li>
                     <li><a href="../admin/admin.php">관리자모드</a></li>
                 <?php } ?>
             </ul>
