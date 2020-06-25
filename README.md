@@ -5,7 +5,7 @@
 |---|-----|----------|
 |Choi Sooyong|2019063363| File sharing
 |Hwang Jiwon|2016007274| Sign-up / login function
-|Lee Euihyung|2019092651| 
+|Lee Euihyung|2019092651| File Upload logic
 |Kim Minsu|2019055014|Chat service
 
 ## Docs + chat
