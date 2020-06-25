@@ -30,14 +30,28 @@ Docs + chat은 기존 google docs가 제공하는 서비스에 채팅 기능까�
    그 다음으로는 아이디어 회의를 진행하였습니다. 회의는 Slack을 통해 진행되었고 회의에서 나온 아이디어는 Notion이라는 노트앱에 정리하였습
    다. notion의 투표 기능을 활용하여 어떤 프로젝트를 선정할 것인지 투표한 결과 Docs + chat이 선정되었습니다.
 
-## Docs + chat 설계
-   ### 회원가입 / 로그인
+## Docs + chat Design
+
+   ### Sign-up / login
    
    #### Requirements
-   -XAMPP for 7.4.7
-   -Apache 2.4.43
-   -MariaDB 10.4.13
-   -PHP 7.4.7
+   - XAMPP for Windows Ver.7.4.7
+      - Apache 2.4.43
+      - MariaDB 10.4.13
+      - PHP 7.4.7
+
+   This project is developed by using WAMPP. We recommand executing our project using WAMPP.
+
+   
+   #### More information about Sign-up process
+   - Check for duplicate ID
+   - Confirm password
+   
+   #### More information about login process
+   - Check if ID and password are entered
+   - Check if ID and password match the database
+   - The header design changes when the user login successfully. (You can see that there is 'logout' instead of 'login' anymore.)
+
    ### 프론트엔드
    
    #### Requirements
