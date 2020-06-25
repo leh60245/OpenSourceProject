@@ -160,6 +160,7 @@
           <input type="submit">
 
         </form>
+            <iframe width:100vw; height="480px" src="https://sucozchat.herokuapp.com/" id="chat" frameborder="1" scrolling="yes"></iframe>
         <div id="mainbody">
         <table class="tsel" border="0" width="100%">
         <tr>
@@ -177,5 +178,4 @@
         </td></tr>
         </table>
         </body>
-        <iframe width:100vw; height="480px" src="https://sucozchat.herokuapp.com/" id="chat" frameborder="1" scrolling="yes"></iframe>
 </html>
