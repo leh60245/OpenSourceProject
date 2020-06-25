@@ -148,7 +148,7 @@
         Document share
         </p>
         <ul>
-        <li><a href="./app/template/about.html">About</a></li>
+        <li><a href="./app/templates/main/about.html">About</a></li>
         </ul>
         </div>
         <form method="post" action="upload" enctype="multipart/form-data">
