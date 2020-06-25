@@ -45,8 +45,11 @@ Docs + chat은 기존 google docs가 제공하는 서비스에 채팅 기능까�
    
    #### Sign-up process
    - Check for duplicate ID
+   
    - Confirm password
+   
    - insert into member table in hp_db
+   
    
    #### login process
    - Check if ID and password are entered
@@ -55,17 +58,26 @@ Docs + chat은 기존 google docs가 제공하는 서비스에 채팅 기능까�
 
    ### 프론트엔드
    -index.html
+   
    -about.html
+   
    -Use a lot of CSS
+   
    -Works of Kim Min-soo and Hwang Ji-won
+   
    #### Requirements
+   
    - The flask environment i set up
    
    ### 백엔드
    -index.py
+   
    -flask_upload.py
+   
    -Works of Kim Min-soo and Hwang Ji-won
+   
    -Use a Mysql
+   
    #### Requirements
    - The flask environment i set up
    ### 채팅
