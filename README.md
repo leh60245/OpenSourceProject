@@ -56,7 +56,7 @@ Docs + chat은 기존 google docs가 제공하는 서비스에 채팅 기능까�
    - Check if ID and password match the database
    - The header design changes when the user login successfully. (You can see that there is 'logout' instead of 'login' anymore.)
 
-   ### 프론트엔드
+   ### front-end
    -index.html
    
    -about.html
@@ -69,7 +69,7 @@ Docs + chat은 기존 google docs가 제공하는 서비스에 채팅 기능까�
    
    - The flask environment i set up
    
-   ### 백엔드
+   ### back-end
    -index.py
    
    -flask_upload.py
@@ -80,6 +80,17 @@ Docs + chat은 기존 google docs가 제공하는 서비스에 채팅 기능까�
    
    #### Requirements
    - The flask environment i set up
-   ### 채팅
+   
+   ### chat
    
    #### Requirements
+   - Node.js for Windows Ver.14.4.0
+   - socket.io 2.3.0
+   - npm 6.14.5
+   - express 4.17.1
+   
+   To implement chatting web site, you need to install this requirement
+   
+   #### chatting process
+   - Asking you to type nickname which is displayed on chatting window
+   - Enjoy chatting with your team!
