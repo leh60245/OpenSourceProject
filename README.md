@@ -1,34 +1,37 @@
 # T2's OpenSourceProject
 
 ## Member
-|이름|학번|contribution|
+|Name|Student ID|Contribution|
 |---|-----|----------|
-|Choi Su Yong|2019063363| File sharing
+|Choi Sooyong|2019063363| File sharing
 |Hwang Jiwon|2016007274| Sign-up / login function
-|Lee Eui-hyung|2019092651| 
+|Lee Euihyung|2019092651| 
 |Kim Minsu|2019055014|Chat service
 
 ## Docs + chat
-Docs + chat은 기존 google docs가 제공하는 서비스에 채팅 기능까지 더해진 웹사이트입니다. 실시간으로 팀 구성원들과 의사소통하며 문서를 작성하고 수정해보세요!
+Docs + chat is a website that adds a chat function to a file sharing service. Communicate with team members and share documents!
 
-###주요기능
-- 회원가입, 로그인
-- 공동 문서 작업(Google Docs)
-- 사용자간 채팅
+### Major Function
+- Sign-up and Login
+- File Sharing
+- Chat with users
 
 
-## 아이디어 선정
+## Idea Selection
 
-1. 웹? 어플?
+1. Web? App?
 
-   맨 처음 어플에 대한 아이디어 회의를 진행하던 도중 맞닥뜨린 문제는 '과연 여기서 나온 아이디어들을 우리가 어플로 구현할 수 있을까?'였습니다.
-   팀원 모두 어플을 만드는 것은 이번이 처음이였기에 어플보다는 웹 사이트를 구현하는게 좀 더 낫지 않겠냐는 의견이 있었고 모두 이에 동의하여
-   프로젝트의 방향은 웹 사이트 구현으로 가닥을 잡았습니다.
-   
-2. 무엇을?
+   The first problem we encountered while conducting an idea meeting was 'Can we implement the ideas as apps?'
+   It was the first time that all members made an app. So I thought it would be better to implement a website than an application. All team members agreed, and the direction of the project was decided by the website implementation.
 
-   그 다음으로는 아이디어 회의를 진행하였습니다. 회의는 Slack을 통해 진행되었고 회의에서 나온 아이디어는 Notion이라는 노트앱에 정리하였습
-   다. notion의 투표 기능을 활용하여 어떤 프로젝트를 선정할 것인지 투표한 결과 Docs + chat이 선정되었습니다.
+2. What?
+
+  Next, an idea meeting was held. The meeting was conducted through Slack, and ideas from the meeting were summarized in a note app called Notion. Docs + chat was selected as a result of voting which project to select using slack's voting function.
+
+ <img width="378" alt="img 755" src="https://user-images.githubusercontent.com/56688064/85732806-a2764b80-b736-11ea-9dca-f33b75bcc2a6.png">
+<img width="377" alt="755 img" src="https://user-images.githubusercontent.com/56688064/85732814-a3a77880-b736-11ea-9a39-fcf54ee411a9.png">
+
+
 
 ## Docs + chat Design
 
