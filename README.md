@@ -3,9 +3,9 @@
 ## Member
 |이름|학번|contribution|
 |---|-----|----------|
-|최수용|2019063363| File sharing
+|Choi Su Yong|2019063363| File sharing
 |Hwang Jiwon|2016007274| Sign-up / login function
-|이의형|2019092651| 
+|Lee Eui-hyung|2019092651| 
 |Kim Minsu|2019055014|Chat service
 
 ## Docs + chat
@@ -54,13 +54,20 @@ Docs + chat은 기존 google docs가 제공하는 서비스에 채팅 기능까�
    - The header design changes when the user login successfully. (You can see that there is 'logout' instead of 'login' anymore.)
 
    ### 프론트엔드
-   
+   -index.html
+   -about.html
+   -Use a lot of CSS
+   -Works of Kim Min-soo and Hwang Ji-won
    #### Requirements
+   - The flask environment i set up
    
    ### 백엔드
-   
+   -index.py
+   -flask_upload.py
+   -Works of Kim Min-soo and Hwang Ji-won
+   -Use a Mysql
    #### Requirements
-   
+   - The flask environment i set up
    ### 채팅
    
    #### Requirements
