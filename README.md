@@ -43,11 +43,12 @@ Docs + chat은 기존 google docs가 제공하는 서비스에 채팅 기능까�
    This project is developed by using WAMPP. We recommand executing our project using WAMPP.
 
    
-   #### More information about Sign-up process
+   #### Sign-up process
    - Check for duplicate ID
    - Confirm password
+   - insert into member table in hp_db
    
-   #### More information about login process
+   #### login process
    - Check if ID and password are entered
    - Check if ID and password match the database
    - The header design changes when the user login successfully. (You can see that there is 'logout' instead of 'login' anymore.)
