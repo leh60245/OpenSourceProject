@@ -1,12 +1,12 @@
 # T2's OpenSourceProject
 
 ## Member
-|이름|학번|
-|---|-----|
-|최수용|2019063363|
-|Hwang Jiwon|2016007274|
-|이의형|2019092651|
-|Kim Minsu|2019055014|
+|이름|학번|contribution|
+|---|-----|----------|
+|최수용|2019063363| File sharing
+|Hwang Jiwon|2016007274| Sign-up / login function
+|이의형|2019092651| 
+|Kim Minsu|2019055014|Chat service
 
 ## Docs + chat
 Docs + chat은 기존 google docs가 제공하는 서비스에 채팅 기능까지 더해진 웹사이트입니다. 실시간으로 팀 구성원들과 의사소통하며 문서를 작성하고 수정해보세요!
