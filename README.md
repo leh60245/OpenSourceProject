@@ -70,13 +70,13 @@ Docs + chat은 기존 google docs가 제공하는 서비스에 채팅 기능까�
    - The flask environment i set up
    
    ### back-end
-   -index.py
+   - index.py
    
-   -flask_upload.py
+   - flask_upload.py
    
-   -Works of Kim Min-soo and Hwang Ji-won
+   - Works of Kim Min-soo and Hwang Ji-won
    
-   -Use a Mysql
+   - Use a Mysql
    
    #### Requirements
    - The flask environment i set up
