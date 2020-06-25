@@ -59,6 +59,8 @@ Docs + chat is a website that adds a chat function to a file sharing service. Co
    - Check if ID and password match the database
    - The header design changes when the user login successfully. (You can see that there is 'logout' instead of 'login' anymore.)
 
+
+
    ####FLASK
     Coding convention
       - https://exploreflask.com/en/latest/conventions.html
